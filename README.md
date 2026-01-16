@@ -1,4 +1,4 @@
 # r-programming-assignments
-Repository for R Programming Assignments
-Rane Frederiksen-Billett
-LIS4370
+Repository for R Programming Assignments <br>
+Rane Frederiksen-Billett <br>
+LIS4370 <br>
