@@ -10,3 +10,5 @@ Assignment 6 Blog; [Visual analytics and R](https://ranedomain.wordpress.com/202
 Assignment 7 Blog; [S3 and S4 Objects](https://raneprogramminginr.blogspot.com/2026/03/module-7-object-s3-vs-s4.html) <br>
 Assignment 8 Blog; [Input and Output with Plyr and String manipulation](https://raneprogramminginr.blogspot.com/2026/03/week-8-inputoutput-string-manipulation.html) <br>
 Assignment 9 Blog; [Visualization in Base R, Lattice and ggplot2](https://raneprogramminginr.blogspot.com/2026/03/assignment-9-visualization-in-base-r.html) <br>
+Assignment 10 Blog: [Building my own R package](https://raneprogramminginr.blogspot.com/2026/03/assignment-10-building-my-own-r-package.html) <br>
+Assignment 11 Blog: [Debugging and Defensive Programming in R](https://raneprogramminginr.blogspot.com/2026/04/assignment-11-debugging-and-defensive.html) <br>
