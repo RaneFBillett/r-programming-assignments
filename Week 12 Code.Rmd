@@ -1,0 +1,41 @@
+---
+title: "Assignment 12"
+author: "Rane Frederiksen-Billett"
+date: "2026-04-12"
+output: html_document
+---
+
+# Introduction
+
+R Markdown gives you a simple way to mix narrative text, R code, and math in one place. Everything stays connected, so your code, results, and explanations don’t get separated or out of sync. When you knit the file, it runs the code for you and turns the whole thing into a clean HTML report.
+
+# Narrative Section
+
+R Markdown makes the whole reporting process a lot smoother because you don’t have to copy results into a separate document. Since the code lives right inside the file, everything updates automatically when you knit it. It keeps things accurate, reduces mistakes, and makes the workflow way easier to follow.
+
+# Math Examples
+
+Inline math example: $\alpha + \beta = \gamma$
+
+Displayed equation:
+
+$$
+y = \beta_0 + \beta_1 x + \epsilon
+$$
+
+# Code Section 1: Load Libraries and Data
+
+```{r}
+library(ggplot2)
+data("mpg")
+summary(mpg$hwy)
+
+ggplot(mpg, aes(displ, hwy)) +
+  geom_point(color = "limegreen") +
+  theme_void() +
+  labs(title = "Engine Displacement vs Highway MPG")
+```
+
+# Concluding Reflection
+
+This was an enjoyable but somewhat difficult assignment. Learning the syntax really was where my troubles were lying, previously having been only exposed to pre-written files using similar syntax. That is to say creating this document has allowed me insight I hadn't even known I needed. I find now I am capable of traversing and using this style of R file, and also believe it to be a very helpful tool that I may find myself using more frequently in the future. I would say writing normal reports as opposed to this style generally may be a little easier but the way in which you can format and organize with this method makes it more useful in my opinion.
